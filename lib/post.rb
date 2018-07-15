@@ -12,6 +12,6 @@ class Post
   end
   
   def author_name(author = nil)
-    post.author = author
+    post.author_name = author
   end
 end
