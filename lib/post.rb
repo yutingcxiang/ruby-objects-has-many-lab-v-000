@@ -11,7 +11,7 @@ class Post
     @@all
   end
   
-  def author_name(author = nil)
+  def author_name(author_name = nil)
     self.author_name = author_name
   end
 end
